@@ -47,6 +47,10 @@ local colors = {
   ui_orange = "#E8AB53",
   ui2_orange = "#613214",
   ui_purple = "#B180D7",
+  diff_add = "#2F4035",
+  diff_change = "#1a3137",
+  diff_delete = "#422D2D",
+  diff_text = "#422D2D"
 }
 
 return colors
