@@ -33,7 +33,7 @@ theme.set_highlights = function()
   hl(0, "VisualNOS", { fg = 'NONE', bg = c.alt_bg })
   hl(0, "WarningMsg", { fg = c.ui_orange, bg = c.bg })
   hl(0, "DiffText", { bg = c.diff_text })
-  hl(0, "DiffAdd", { bg = c.diff_add})
+  hl(0, "DiffAdd", { bg = c.diff_add })
   hl(0, "DiffChange", { bg = c.diff_change })
   hl(0, "DiffDelete", { bg = c.diff_delete })
   hl(0, "QuickFixLine", { fg = 'NONE', bg = c.ui2_blue })
@@ -672,6 +672,15 @@ theme.set_highlights = function()
   hl(0, "tomlTSProperty", { fg = c.blue, bg = 'NONE' })
   hl(0, "zshKSHFunction", { link = "Function" })
   hl(0, "zshVariableDef", { link = "Constant" })
+
+
+  hl(0, "RainbowDelimiterYellow", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "RainbowDelimiterViolet", { fg = c.magenta, bg = 'NONE' })
+  hl(0, "RainbowDelimiterCyan", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "RainbowDelimiterBlue", { fg = c.blue, bg = 'NONE' })
+  hl(0, "RainbowDelimiterRed", { fg = c.red, bg = 'NONE' })
+  hl(0, "RainbowDelimiterOrange", { fg = c.orange, bg = 'NONE' })
+  hl(0, "RainbowDelimiterGreen", { fg = c.sign_add_alt, bg = 'NONE' })
 end
 
 return theme
